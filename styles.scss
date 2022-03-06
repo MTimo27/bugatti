@@ -11,10 +11,17 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  margin-bottom: 10rem;
+  background-color: #fdfdfd;
+  color: #011940;
+}
+
 p {
   line-height: 1.4rem;
   font-weight: 300;
   letter-spacing: 1.2px;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 h1 {
@@ -76,56 +83,61 @@ h1 {
 }
 
 .container {
-  @media screen and (min-width: $tablet-breakpoint) {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
 }
 
 .desc {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin-top: 9rem;
   gap: 1rem;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #21396c;
+  color: #ecf0f3;
   @media screen and (min-width: $tablet-breakpoint) {
-    margin-top: 12rem;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
+    gap: 3rem;
+    padding: 2rem 4rem 2rem 4rem;
+  }
+  &--first {
+    background-color: #fdfdfd;
+    color: #011940;
+  }
+  &--withoutimg {
+    @media screen and (min-width: $tablet-breakpoint) {
+      justify-content: flex-start;
+    }
+  }
+  img {
+    width: 100%;
+    border-radius: 5px;
+    // @media screen and (min-width: $tablet-breakpoint) {
+    //   max-width: 30rem;
+    //   max-height: 15rem;
+    // }
   }
   &__text {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     @media screen and (min-width: $tablet-breakpoint) {
-      max-width: 50rem;
+      max-width: 40rem;
+    }
+    &--withoutimg {
+      @media screen and (min-width: $tablet-breakpoint) {
+        max-width: 100%;
+      }
     }
   }
 }
 
-.descWithImg {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 0.5rem 0 0.5rem 0;
-  @media screen and (min-width: $tablet-breakpoint) {
-    flex-direction: row;
-  }
+.full-image {
   img {
     width: 100%;
-    @media screen and (min-width: $tablet-breakpoint) {
-      width: 30rem;
-    }
-  }
-  &__text {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0 1.5rem 0 1.5rem;
+    height: 100%;
   }
 }

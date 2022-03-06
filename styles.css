@@ -28,7 +28,9 @@ input, textarea, button, select, a { -webkit-tap-highlight-color: rgba(0, 0, 0, 
 
 html { scroll-behavior: smooth; font-family: 'Open Sans', sans-serif; }
 
-p { line-height: 1.4rem; font-weight: 300; letter-spacing: 1.2px; }
+body { margin-bottom: 10rem; background-color: #fdfdfd; color: #011940; }
+
+p { line-height: 1.4rem; font-weight: 300; letter-spacing: 1.2px; padding: 0.5rem 0 0.5rem 0; }
 
 h1 { font-family: 'Shippori Antique B1', sans-serif; text-transform: uppercase; font-size: 2rem; font-weight: 800; line-height: 2.5rem; }
 
@@ -50,22 +52,20 @@ h1 { font-family: 'Shippori Antique B1', sans-serif; text-transform: uppercase; 
 
 @media screen and (min-width: 768px) { .hero__car { width: 18rem; } }
 
-@media screen and (min-width: 768px) { .container { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; } }
+.container { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 12rem; }
 
-.desc { width: 80%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-top: 9rem; gap: 1rem; padding: 0.5rem 1.5rem 0.5rem 1.5rem; }
+.desc { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 1rem; padding: 0.5rem 1.5rem 0.5rem 1.5rem; background-color: #21396c; color: #ecf0f3; }
 
-@media screen and (min-width: 768px) { .desc { margin-top: 12rem; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; } }
+@media screen and (min-width: 768px) { .desc { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; gap: 3rem; padding: 2rem 4rem 2rem 4rem; } }
 
-.desc__text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 1rem; }
+.desc--first { background-color: #fdfdfd; color: #011940; }
 
-@media screen and (min-width: 768px) { .desc__text { max-width: 50rem; } }
+@media screen and (min-width: 768px) { .desc--withoutimg { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; } }
 
-.descWithImg { width: 80%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 1rem; padding: 0.5rem 0 0.5rem 0; }
+.desc img { width: 100%; border-radius: 5px; }
 
-@media screen and (min-width: 768px) { .descWithImg { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; } }
+@media screen and (min-width: 768px) { .desc__text { max-width: 40rem; } }
 
-.descWithImg img { width: 100%; }
+@media screen and (min-width: 768px) { .desc__text--withoutimg { max-width: 100%; } }
 
-@media screen and (min-width: 768px) { .descWithImg img { width: 30rem; } }
-
-.descWithImg__text { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; gap: 1rem; padding: 0 1.5rem 0 1.5rem; }
+.full-image img { width: 100%; height: 100%; }
