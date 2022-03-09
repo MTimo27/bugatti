@@ -8,81 +8,175 @@
       content="width=device-width, initial-scale=1.0"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
     <title>Bugatti</title>
   </head>
   <body>
-    <div class="hero">
-      <div class="navbar">
-        <img src="./assets/emblem.png" alt="" />
-        <i class="fa-solid fa-bars menu-icon"></i>
-      </div>
-
-      <img
-        class="hero__logo"
-        src="./assets/logo.png"
-        alt=""
-      />
-
-      <img
-        class="hero__car"
-        src="./assets/hero.png"
-        alt=""
-      />
-    </div>
-    <div class="container">
-      <div class="desc desc--first">
-        <img src="./assets/desc1.png" alt="" />
-        <div class="desc__text">
-          <h1>Breaking new dimensions</h1>
-          <p>
-            The CHIRON is the fastest, most powerful, and
-            exclusive production super sports car in
-            BUGATTI’s history. Its sophisticated design,
-            innovative technology, and iconic,
-            performance-oriented form make it a unique
-            masterpiece of art, form and technique, that
-            pushes boundaries beyond imagination.
-          </p>
-          <p>
-            BUGATTI owes its distinctive character to a
-            family of artists and engineers, and has always
-            strived to offer the extraordinary, the
-            unrivaled, the best. Every element of the CHIRON
-            is a combination of reminiscence to its history
-            and the most innovative technology. The result
-            is a unique creation of enduring value, and
-            breathtaking automotive accomplishment.
-          </p>
+    <div class="navbar">
+      <div class="navbar__container">
+        <div
+          id="navbar__icon"
+          class="navbar__icon navbar__icon--closed"
+        ></div>
+        <div class="navbar__logo-container">
+          <img
+            src="./assets/logo.png"
+            alt=""
+            class="navbar__logo"
+          />
         </div>
       </div>
 
-      <div class="desc desc--withoutimg">
-        <div class="desc__text desc__text--withoutimg">
-          <h1>UNCOVERING A NEW DIMENSION: THE SKY</h1>
-          <p>
-            The Skyview option was developed in accordance
-            with the attributes that characterize the
-            CHIRON. The symbolic horseshoe grill, and the
-            distinctive C-bar on the side, still define it
-            as unmistakably BUGATTI, as do its pronounced
-            lines and generous surfaces. From inside, the
-            glass roof enables a view into another
-            dimension, flooding the cockpit with natural
-            light.
-          </p>
+      <ul
+        id="navbar__menu"
+        class="navbar__menu navbar__menu--closed"
+      >
+        <li><a href="">Home</a></li>
+        <li><a href="">Description</a></li>
+        <li><a href="">Car</a></li>
+      </ul>
+    </div>
+
+    <div class="hero"></div>
+
+    <div class="desc">
+      <div class="desc__title">
+        <h1>La Voiture Noire</h1>
+        <h2>Reminiscence of an icon</h2>
+      </div>
+      <div class="desc__text">
+        <p>
+          A pioneering spirit, passion for perfection and
+          the desire to continually redefine its limits have
+          been the key characteristics of BUGATTI since it
+          was founded more than 110 years ago . None of the
+          brand's masterpieces reflect these values more
+          impressively than the Type 57 SC Atlantic. Created
+          by Ettore Bugatti's eldest son Jean, the only four
+          Atlantics ever created stand for pure elegance and
+          sophistication.
+        </p>
+        <p>
+          With its homage to the fourth, all-black Atlantic,
+          missing since the Second World War, BUGATTI is
+          bringing the speed, technology, luxury and
+          aesthetics of an icon into a new era. But the
+          customized creation of “La Voiture Noire” is far
+          more than a modern interpretation of the ghost of
+          the gran turismo. “La Voiture Noire” is a tribute
+          to BUGATTI's own history, a manifesto of the
+          BUGATTI aesthetic and a piece of automotive haute
+          couture.
+        </p>
+      </div>
+    </div>
+
+    <div class="car">
+      <div class="car__section">
+        <div class="car__title">
+          <h1>L’Icône</h1>
+          <h2>
+            Celebration of the Automotive Haute Couture
+          </h2>
+        </div>
+        <div class="car__icon-container">
+          <div class="car__icon">
+            <a href=""
+              ><img src="./assets/play.png" alt=""
+            /></a>
+          </div>
         </div>
       </div>
 
-      <div class="full-image">
-        <img src="./assets/full-image.jpg" alt="" />
+      <div class="car__section">
+        <div class="car__title">
+          <h1>La Renaissance</h1>
+          <h2>Rediscover a Masterpiece</h2>
+        </div>
+        <div class="car__icon-container">
+          <div class="car__icon">
+            <a href=""
+              ><img src="./assets/lines.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="car__section">
+        <div class="car__title">
+          <h1>L’Artiste et Le Mythe</h1>
+          <h2>
+            Meet the artist and immerse even deeper into the
+            myth
+          </h2>
+        </div>
+        <div class="car__icon-container">
+          <div class="car__icon">
+            <a href=""
+              ><img src="./assets/lines.png" alt=""
+            /></a>
+          </div>
+        </div>
       </div>
     </div>
+
+    <div class="showcase"></div>
+
+    <div class="up">
+      <a href=""><img src="./assets/up.png" alt="" /></a>
+    </div>
+
+    <div class="social">
+      <a href=""><img src="./assets/fb.png" alt="" /></a>
+      <a href=""
+        ><img src="./assets/twitter.png" alt=""
+      /></a>
+      <a href=""><img src="./assets/ig.png" alt="" /></a>
+      <a href=""
+        ><img src="./assets/pinterest.png" alt=""
+      /></a>
+      <a href=""
+        ><img src="./assets/youtube.png" alt=""
+      /></a>
+      <a href=""
+        ><img src="./assets/linkedin.png" alt=""
+      /></a>
+    </div>
+
+    <div class="copyright">
+      <p>© 2022 Made by Cordun Augusta</p>
+    </div>
+
+    <script>
+      const navbarIcon =
+        document.getElementById('navbar__icon');
+      const navbarMenu =
+        document.getElementById('navbar__menu');
+      let isOpened = false;
+
+      navbarIcon.addEventListener('click', () => {
+        if (isOpened === false) {
+          navbarIcon.classList.remove(
+            'navbar__icon--closed'
+          );
+          navbarMenu.classList.remove(
+            'navbar__menu--closed'
+          );
+          navbarIcon.classList.add('navbar__icon--opened');
+          navbarMenu.classList.add('navbar__menu--opened');
+          isOpened = true;
+        } else {
+          navbarIcon.classList.remove(
+            'navbar__icon--opened'
+          );
+          navbarMenu.classList.remove(
+            'navbar__menu--opened'
+          );
+          navbarIcon.classList.add('navbar__icon--closed');
+          navbarMenu.classList.add('navbar__menu--closed');
+          isOpened = false;
+        }
+      });
+    </script>
   </body>
 </html>
