@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700");
-@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 *, *:before, *:after { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root { font-size: 16px !important; }
@@ -26,7 +26,7 @@ a { text-decoration: none; color: inherit; }
 
 input, textarea, button, select, a { -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important; }
 
-html { scroll-behavior: smooth; font-family: 'Open Sans', sans-serif; }
+html { scroll-behavior: smooth; font-family: 'Montserrat', sans-serif; }
 
 body { background-color: #000000; }
 
@@ -66,7 +66,7 @@ body { background-color: #000000; }
 
 @media screen and (min-width: 768px) { .desc__title img { width: 25rem; } }
 
-.desc__title h2 { font-size: 1.2rem; font-weight: 600; }
+.desc__title h2 { font-size: 1.2rem; font-weight: 600; letter-spacing: 3px; }
 
 @media screen and (min-width: 768px) { .desc__title h2 { font-size: 1.5rem; } }
 
@@ -88,11 +88,11 @@ body { background-color: #000000; }
 
 @media screen and (min-width: 768px) { .car__title { gap: 0.8rem; } }
 
-.car__title h1 { font-size: 1.8rem; font-weight: 800; }
+.car__title h1 { font-size: 1.8rem; font-weight: 800; letter-spacing: 5px; }
 
 @media screen and (min-width: 768px) { .car__title h1 { font-size: 2.8rem; } }
 
-.car__title h2 { font-size: 1.2rem; font-weight: 600; }
+.car__title h2 { font-size: 1.2rem; font-weight: 600; letter-spacing: 3px; }
 
 @media screen and (min-width: 768px) { .car__title h2 { font-size: 1.5rem; line-height: 1.8rem; max-width: 35rem; } }
 
@@ -126,7 +126,7 @@ iframe { width: 100%; height: 100%; }
 
 @media screen and (min-width: 768px) { .section1__text { max-width: 50%; } }
 
-.section1 h2 { font-size: 1.2rem; font-weight: 600; text-transform: uppercase; line-height: 1.5rem; }
+.section1 h2 { font-size: 1.2rem; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; line-height: 1.5rem; }
 
 @media screen and (min-width: 768px) { .section1 h2 { font-size: 2.2rem; line-height: 2.8rem; } }
 
@@ -150,13 +150,13 @@ iframe { width: 100%; height: 100%; }
 
 @media screen and (min-width: 768px) { .title { padding: 1em 5em 1em 5em; } }
 
-.title h1 { font-size: 1.8rem; line-height: 2rem; font-weight: 800; }
+.title h1 { font-size: 1.8rem; line-height: 2rem; font-weight: 800; letter-spacing: 3px; }
 
-.title h2 { font-size: 1rem; line-height: 1.2rem; font-weight: 600; }
+.title h2 { font-size: 1rem; line-height: 1.2rem; font-weight: 600; letter-spacing: 3px; }
 
 .title--first { margin-top: 5rem; }
 
-.section2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #ffffff; padding: 1em 2em 1em 2em; gap: 2rem; }
+.section2 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: #ffffff; padding: 1em 2em 1em 2em; gap: 2rem; }
 
 @media screen and (min-width: 768px) { .section2 { padding: 1em 5em 1em 5em; } }
 
@@ -165,7 +165,7 @@ iframe { width: 100%; height: 100%; }
 @media screen and (min-width: 768px) { .section2__text { max-width: 50%; }
   .section2__text--fifth { max-width: 80%; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; gap: 2rem; } }
 
-.section2 h2 { font-size: 1.2rem; font-weight: 600; text-transform: uppercase; line-height: 1.5rem; }
+.section2 h2 { font-size: 1.2rem; text-transform: uppercase; line-height: 1.5rem; font-weight: 800; letter-spacing: 3px; }
 
 @media screen and (min-width: 768px) { .section2 h2 { font-size: 2.2rem; line-height: 2.8rem; } }
 

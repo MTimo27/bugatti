@@ -1,10 +1,11 @@
 @import './reset';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700');
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -120,6 +121,7 @@ body {
     h2 {
       font-size: 1.2rem;
       font-weight: 600;
+      letter-spacing: 3px;
       @media screen and (min-width: 768px) {
         font-size: 1.5rem;
       }
@@ -177,6 +179,7 @@ body {
     h1 {
       font-size: 1.8rem;
       font-weight: 800;
+      letter-spacing: 5px;
       @media screen and (min-width: 768px) {
         font-size: 2.8rem;
       }
@@ -184,6 +187,7 @@ body {
     h2 {
       font-size: 1.2rem;
       font-weight: 600;
+      letter-spacing: 3px;
       @media screen and (min-width: 768px) {
         font-size: 1.5rem;
         line-height: 1.8rem;
@@ -290,7 +294,8 @@ iframe {
   }
   h2 {
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 800;
+    letter-spacing: 3px;
     text-transform: uppercase;
     line-height: 1.5rem;
     @media screen and (min-width: 768px) {
@@ -347,11 +352,13 @@ iframe {
     font-size: 1.8rem;
     line-height: 2rem;
     font-weight: 800;
+    letter-spacing: 3px;
   }
   h2 {
     font-size: 1rem;
     line-height: 1.2rem;
     font-weight: 600;
+    letter-spacing: 3px;
   }
 
   &--first {
@@ -363,6 +370,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #ffffff;
   padding: 1em 2em 1em 2em;
   gap: 2rem;
@@ -385,9 +393,10 @@ iframe {
   }
   h2 {
     font-size: 1.2rem;
-    font-weight: 600;
     text-transform: uppercase;
     line-height: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 3px;
     @media screen and (min-width: 768px) {
       font-size: 2.2rem;
       line-height: 2.8rem;
