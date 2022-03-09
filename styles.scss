@@ -153,7 +153,7 @@ body {
   background-color: #000000;
   color: #ffffff;
   padding: 1em;
-  gap: 5rem;
+  gap: 3rem;
   @media screen and (min-width: 768px) {
     min-height: 100rem;
     padding: 1em 6em 1em 6em;
@@ -162,7 +162,7 @@ body {
   &__section {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     @media screen and (min-width: 768px) {
       gap: 4rem;
     }
@@ -185,9 +185,11 @@ body {
       }
     }
     h2 {
-      font-size: 1.2rem;
+      font-size: 0.85rem;
       font-weight: 600;
       letter-spacing: 3px;
+      line-height: 1.2rem;
+      max-width: 20rem;
       @media screen and (min-width: 768px) {
         font-size: 1.5rem;
         line-height: 1.8rem;
